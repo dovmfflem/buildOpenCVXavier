@@ -208,3 +208,4 @@ if [[ $IMPORT_CHECK != *$OPENCV_VERSION* ]]; then
   echo "Please check the installation."
   echo "The first check should be the PYTHONPATH environment variable."
 fi
+sudo ./setldconfig.sh
