@@ -36,7 +36,7 @@ if [ -d "opencv" ] ; then
      echo "opencv is a symlink, unable to remove"
    else
      echo "Removing opencv sources"
-     sudo rm -r opencv
+     rm -r opencv
    fi
 else
    echo "Could not find opencv directory"
@@ -47,7 +47,7 @@ if [ -d "opencv_extra" ] ; then
      echo "opencv_extra is a symlink, unable to remove"
    else
      echo "Removing opencv_extra sources"
-     sudo rm -r opencv_extra
+     rm -r opencv_extra
    fi
 else
    echo "Could not find opencv_extra directory"
